@@ -11,8 +11,8 @@ public class LambdaDemo {
 
       //  Temp temp = new Temp();
         //printData.print();
-        PrintData printData = ()-> {System.out.println("Hello World");};
-        printData.print();
+        PrintData printData = (i)-> {System.out.println("Hello World " + i);};
+        printData.print(10);
 
     }
 }
